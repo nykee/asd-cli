@@ -1,0 +1,24 @@
+{
+  "name": "asd-cli",
+  "version": "1.0.2",
+  "description": "nykee的前端项目初始化脚手架",
+  "main": "index.js",
+  "bin": {
+    "asd": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "asd-cli": "^1.0.1",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "global": "^4.4.0",
+    "inquirer": "^6.2.2",
+    "log-symbols": "^4.0.0",
+    "ora": "^3.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
