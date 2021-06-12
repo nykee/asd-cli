@@ -50,8 +50,8 @@ let downGit = (name,type) => {
             //     }
             //     spinner2.stop();
             //     console.log(stdout);
-                console.log(symbol.success,"项目创建成功");
-                process.exit(1);
+            //     console.log(symbol.success,"项目创建成功");
+            //     process.exit(1);
 
 
             // });
