@@ -2,12 +2,13 @@ const inquirer = require('inquirer');
 let optionsArr = [{
     type: 'list',
     name: "type",
-    message: "请选择你想创建的模板类型(vue or react)",
+    message: "请选择你想创建的模板类型",
     choices: [
-        "vue",
+        "vue2.0",
+        "vue3.0jsx",
         "react"
     ],
-    default: 'vue'
+    default: 'vue2.0'
 }];
 
 module.exports = () => {

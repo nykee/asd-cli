@@ -16,7 +16,15 @@ let clone = false;
 
 let downGit = (name,type) => {
     // console.log("name:"+name);
-    let url= (type ==="vue")?"nykee/vue-template":"nykee/antd-template";
+    let url = null;
+    if(type ==='vue2.0'){
+        url='nykee/vue-template'
+    }else if(type ==='vue3.0jsx'){
+        url='nykee/Vue3.0Jsx'
+    }else if(type==='react'){
+        url='nykee/antd-template'
+    }
+    // let url= (type ==="vue")?"nykee/vue-template":"nykee/antd-template";
     let spinner = ora('正在拉取模板...');
     spinner.start();
     downLoad(url, name, {
