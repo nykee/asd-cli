@@ -1,6 +1,6 @@
 {
   "name": "asd-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "前端项目初始化脚手架",
   "main": "index.js",
   "bin": {
