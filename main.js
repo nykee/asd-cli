@@ -24,7 +24,7 @@ cmd.command('init').description('初始化模板').action(async (args) => {
             }
         });
     };
-    console.log(chalk.yellow('vue脚手架初始化模板：1、API层封装 2、axios封装 3、简易MockServer安装 \n'));
+    console.log(chalk.yellow('vue2.0脚手架初始化模板：1、API层封装 2、axios封装 3、简易MockServer安装 \n'));
     console.log(chalk.yellow('react脚手架初始化模板：1、API层封装 2、axios封装 3、简易MockServer安装 4、ant-design4.0 \n'));
     // 填选项
     await options().then(res=>{

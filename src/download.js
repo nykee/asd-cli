@@ -23,6 +23,8 @@ let downGit = (name,type) => {
         url='nykee/Vue3.0Jsx'
     }else if(type==='react'){
         url='nykee/antd-template'
+    }else {
+        url='https://gitee.com/zhoalei3/koa-server'
     }
     // let url= (type ==="vue")?"nykee/vue-template":"nykee/antd-template";
     let spinner = ora('正在拉取模板...');

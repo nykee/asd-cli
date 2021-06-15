@@ -6,7 +6,8 @@ let optionsArr = [{
     choices: [
         "vue2.0",
         "vue3.0jsx",
-        "react"
+        "react",
+        'koa-template'
     ],
     default: 'vue2.0'
 }];
