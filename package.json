@@ -1,7 +1,7 @@
 {
   "name": "asd-cli",
-  "version": "1.0.5",
-  "description": "nykee的前端项目初始化脚手架",
+  "version": "1.0.6",
+  "description": "前端项目初始化脚手架",
   "main": "index.js",
   "bin": {
     "asd": "main.js"
